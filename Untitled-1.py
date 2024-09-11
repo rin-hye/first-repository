@@ -2,9 +2,10 @@ def hello():
     print("Hello World!")
 
 
-def kk():
-    print("Kumoh National Institute of Technology.")
+def add(x, y):
+    a = x + y
+    return a
 
 if __name__ == '__main__':
     hello()
-    kk()
+    print(add(1, 2))
